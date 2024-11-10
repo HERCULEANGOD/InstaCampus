@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login | INSTACAMPUS</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="events.html">Events</a>
+    <a href="notifications.html">Notifications</a>
+    <a href="login.html">Login</a>
+  </nav>
+
+  <header>
+    <h1>Login to INSTACAMPUS</h1>
+    <p>Access your university's latest updates and communication tools.</p>
+  </header>
+
+  <main class="container">
+   
+    <section id="login-form">
+      <h2>Login</h2>
+      <form action="/submit-login" method="POST">
+        <label for="username">Username</label>
+        <input type="text" id="username" name="username" placeholder="Enter your username" required>
+
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" placeholder="Enter your password" required>
+
+        <button type="submit">Login</button>
+      </form>
+      <p>Forgot your password? <a href="#">Reset it here</a></p>
+      <p>Don't have an account? <a href="signup.html">Sign up</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 INSTACAMPUS. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
